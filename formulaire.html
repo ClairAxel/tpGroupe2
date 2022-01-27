@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>ADRAR: CONTACTE</title>
+</head>
+<body>
+    <header>
+        <img class="logoadrar" src="logo.png" alt="logoadrar" height="115px" width="90px">
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="presentation_html.html">Html</a></li>
+                <li><a href="presentation_css.html">Css</a></li>
+                <li><a href="formulaire.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Formulaire de contact</h1>
+    <form method="post" action="formulaire.php">
+        <fieldset>
+            <legend>Contactez nous !</legend>
+            <fieldset>
+                <legend>Informations perso</legend>
+                <label for="nom">Nom</label><br>
+                <input type="text" id="nom" placeholder="Ex: Dupont"><br>
+                <label for="prenom">Prénom</label><br>
+                <input type="text" id="prenom" placeholder="Ex: Jacque"><br>
+                <label for ="age">Age</label><br>
+                <input type="number" id ="age" placeholder="Ex: 20"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Ex: nimportequoi@hotmail.com"><br>
+                <label for="tel">Numéro de téléphone</label><br>
+                <input type="text" id="tel" placeholder="Ex: 00 11 22 33 44"><br>
+            </fieldset>
+            <label for="message">Dites nous pourquoi vous nous contactez !</label><br>
+            <textarea id="message" rows="10" cols="60" placeholder="Ecrivez votre message..."></textarea><br>
+            <button>Envoyer</button>
+            <button>Supprimer</button>
+        </fieldset>   
+    </form>
+    <footer>
+        <div>
+        <span><a href="https://www.twitter.com">Twi</a></span>
+        <span><a href="https://www.facebook.com">Face</a></span>
+        <span><a href="https://fr.linkedin.com/">In</a></span>
+        </div>
+    </footer>
+</body>
+</html>
